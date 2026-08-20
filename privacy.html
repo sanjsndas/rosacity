@@ -1,0 +1,978 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="robots" content="index, follow" />
+
+    <title>Rosacitywiss : Personal Information Protection Policy</title>
+    <meta property="og:title" content="Rosacitywiss : Personal Information Protection Policy" />
+    <meta property="og:image" content="main.svg" />
+    
+    <meta property="og:description" content="Rosacitywiss : Personal Information Protection Policy" />
+    <meta name="description" content="Rosacitywiss : Personal Information Protection Policy" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+    <link rel="stylesheet" href="modules/styles/bootstrap.css" />
+    <link rel="stylesheet" href="modules/styles/icons.css" />
+    
+    
+
+    <link rel="shortcut icon" href="main.svg" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet" />
+
+    <script src="modules/scripts/script.js"></script>
+    <script src="modules/scripts/jquery.min.js"></script>
+
+    <style>
+
+
+      body{
+          direction: ltr;
+          font-family: 'Public Sans', sans-serif !important;
+          font-size: 17px;
+          margin: 0;
+          padding: 0px;
+      }
+
+      header {
+          left: 0;
+          position: absreolute;
+          right: 0;
+          top: 0;
+          z-index: 4;
+          background: url(files/images/mask-bg-q950.png) no-repeat #03072F;
+          width: 100%;
+          background-position: center;
+          background-size: cover;
+      }
+      #navigation {
+          padding: 0 15px;
+      }
+      .navbar {
+          border-radius: 0;
+          margin: 0;
+          padding-top: 30px;
+          transition: all 0.5s ease 0s;
+      }
+
+      .navbar .container{
+          padding-bottom: 25px;
+      }
+      .navbar.navbar-fixed-top {
+          background: rgba(0, 0, 0, 0) linear-gradient(to right, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
+          box-shadow: 0 0 20px -10px #000;
+          padding: 0;
+      }
+
+      .navbar-brand{
+          display: flex;
+          flex-direction: row;
+      }
+      .navbar-brand  img {
+          width: 40px;
+      }
+      .site__title{
+          padding: 5px 0 0 5px;
+          color: #ffffff;
+      }
+      .navbar__links{
+          display:flex;
+          justify-content:space-between;
+      }
+
+      .navbar__burger {
+          display: none;
+          cursor: pointer;
+          padding: 15px;
+      }
+
+      .navbar__burger span {
+          display: block;
+          width: 25px;
+          height: 3px;
+          background-color: #000;
+          margin-bottom: 5px;
+      }
+      .navbar-nav{
+          flex-direction: row;
+          padding-left: 0;
+          margin-bottom: 0;
+          list-style: none;
+      }
+      .navbar-nav li{
+          margin-right:27px;
+      }
+
+      .navbar-nav li a {
+          color: #ffffff;
+          font-size: 16px;
+          font-weight: 600;
+          padding: 5px;
+          transition: all 0.3s ease 0s;
+          text-decoration:none;
+      }
+      .navbar-nav  li  a:focus, .navbar-nav  li  a:hover {
+          background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+          opacity: 0.6;
+      }
+
+      .home__img{
+          padding-top: 27px;
+          display: flex;
+          justify-content: center;
+      }
+
+      .home__img img {
+          max-width: 100%;
+          padding: 27px;
+          border-radius:  50%;
+      }
+
+      .home-title{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          text-align: center;
+      }
+
+      .home-title h1{
+          text-align: center;
+          font-size: 22px;
+          letter-spacing: 2px;
+          margin-bottom: 12px;
+          padding:  18px;
+          color: #ffffff;
+      }
+
+      .home__btn{
+          padding: 16px 40px;
+          font-size: 15px;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          border-radius: 0px;
+          font-weight: 500;
+          background: #fa379f;
+          color: #ffffff;
+          transition: all 0.5s ease-in;
+          text-decoration: none;
+          border-radius: 5px 25px;
+      }
+
+
+      .home__btn:hover{
+          background:#000000;
+          color:#fff;
+      }
+      .paddingBlock {
+        padding: 62px 0;
+      }
+
+      .service {
+          background:  #fff;
+          padding-bottom: 24px;
+      }
+
+      .section-title{
+          margin: 62px 0 62px 0;
+          text-align: center;
+      }
+
+      .service__block {
+          padding:  35px 24px ;
+          transition: .3s;
+          box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
+          margin-bottom: 16px;
+          border: 1px solid #fa379f;
+      }
+
+      .service__block:hover {
+          box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
+          transform: translateY(-5px);
+          transition: .3s;
+          background: #03072F;
+          color: #ffffff;
+      }
+      .service-icon {
+          margin-top: 42px;
+          text-align: center;
+          padding-bottom: 16px;
+      }
+
+      .service-icon i {
+          font-size: 42px;
+      }
+      .service-content {
+          display: block;
+          overflow: hidden;
+          text-align: center;
+      }
+
+      .accordion {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .accordion-item {
+          width: 100%;
+          background-color: #fff;
+          background-color: var(--extra-bg);
+          border: 1px solid rgba(43 44 56 / 46%);
+          border-radius: 15px;
+          overflow: hidden;
+        }
+
+        .accordion-header {
+          
+          background-color: #fff;
+            cursor: pointer;
+            text-align: left;
+            width: 100%;
+            padding: 20px;
+            border-radius: 15px;
+            font-weight: 600;
+            letter-spacing: -0.48px;
+            position: relative;
+            transition: var(--transition);
+            border: none;
+            font-size: 18px;
+        }
+
+        .accordion-header:hover {
+            transform: scale(1.02);
+        }
+        .accordion-content {
+          background-color: #fff;
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+        }
+        .accordion-content.show {
+            padding: 0 20px;
+            max-height: max-content;
+            font-size: 18px;
+            margin-bottom: 0;
+            background: #fff;
+        }
+
+      .about__section {
+          padding: 100px 0;
+          background: #03072F;
+          color: #ffffff;
+      }
+
+      .about__title h2 {
+          margin-bottom: 35px;
+          text-align: center;
+      }
+
+      .about__title  p {
+          margin: 0 0 24px;
+          text-align: center;
+      }
+
+      .about__image img{
+          max-width: 100%;
+          transition: .3s;
+      }
+
+      .about__image img:hover {
+          transition: .3s;
+          transform: translateY(-5px);
+      }
+
+
+      .main__block {
+          background: #fff;
+      }
+
+      .main__block .row{
+          display: flex;
+      }
+
+      .main__block .main__box{
+          padding: 35px;
+      }
+
+      .main__block .main__title{
+          margin-bottom:66px;
+      }
+      .main__block .main__title h4{
+          font-size:27px;
+          letter-spacing:2px;
+      }
+
+      .main__image img{
+          max-width: 100%;
+      }
+
+      .main__box h5{
+          font-size: 24px;
+          font-weight: bold;
+      }
+
+
+      .statistics{
+          background: #03072F;
+          padding-top: 125px;
+          padding-bottom: 130px;
+      }
+
+      .block__stat h5 {
+          color: #ffffff;
+          font-weight: 600;
+          margin-bottom: 0px;
+          font-size:20px;
+          text-align: center;
+      }
+      .block__stat h2 {
+          color: #ffffff;
+          font-size: 40px;
+          margin-bottom:  16px;
+          line-height: 35px;
+          text-align: center;
+      }
+
+      .block__stat i{
+          display: flex;
+          justify-content: center;
+          font-size: 42px;
+          color: #ffffff;
+          padding-top:  16px;
+      }
+
+      .section__gallery{
+          background:  #fff;
+          padding-bottom: 42px;
+      }
+
+      .section__gallery .section-title h3{
+          font-size: 25px;
+          font-weight: bold;
+      }
+
+      .images__block img {
+          border-radius: 0px;
+          width: 100%;
+          height: 239px;
+          object-fit: cover;
+          transition: .3s;
+      }
+
+      .images__block img:hover {
+          transition: .3s;
+          transform: translateY(-5px);
+      }
+
+      .map-div iframe {
+        width: 100%;
+      }
+      .clients{
+          background: #03072F;
+          padding-top: 70px;
+          padding-bottom: 70px;
+      }
+
+
+      .client__block{
+          display: flex !important;
+          padding-top: 15px;
+          text-align: center;
+          border: 2px solid #f4f9f9;
+          padding: 20px;
+      }
+
+      .client__block img{
+          width: 90px;
+          height: 90px;
+          margin: 0 auto;
+          border-radius: 50%;
+      }
+
+
+      .clients p {
+          color: #ffffff;
+          text-align: center;
+      }
+      .clients h4{
+          color: #ffffff;
+          text-align: center;
+      }
+      .client__block p {
+          color: #ffffff;
+          font-size: 20px;
+          font-weight: 300;
+          line-height: 35px;
+          margin: 0 0 30px;
+          text-align: center;
+          padding-top: 10px;
+      }
+      .client__block h4 {
+          color: #ffffff;
+          font-size: 24px;
+          margin: 0;
+          text-align: center;
+          padding: 20px 0;
+      }
+ 
+
+      .accordion .contentBox .label{
+          position: relative;
+          padding: 15px;
+          background: #03072F;
+          color: #ffffff;
+          cursor: pointer;
+      }
+
+      .accordion .contentBox .label:before{
+          content: '+';
+          position: absolute;
+          top: 50%;
+          right: 5px;
+          transform: translateY(-50%);
+          font-size: 1.5em;
+      }
+      .accordion .contentBox.active .label:before{
+          content: '-';
+      }
+
+      .accordion .contentBox .content{
+          position: relative;
+          background: #fff;
+          height: 0;
+          overflow: hidden;
+          transition: 0.5s;
+          overflow-y: auto;
+      }
+
+
+      .accordion .contentBox.active .content{
+          height: 150px;
+          padding: 15px;
+      }
+
+
+      .contact{
+          background:#fff;
+          padding-top: 80px;
+          padding-bottom: 130px;
+      }
+
+      .contact-form {
+          background: #fff none repeat scroll 0 0;
+          box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
+          padding: 50px 30px;
+      }
+      .form-control {
+          background: transparent none repeat scroll 0 0;
+          border: 1px solid #eee;
+          border-radius: 5px;
+          box-shadow: none;
+          color: #333;
+          height: 45px;
+          padding: 10px 18px;
+          transition: all 0.3s ease 0s;
+      }
+      .form-group {
+          padding-top: 15px;
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+      }
+
+      .form-check{
+          padding-top: 5px;
+          padding-left: 40px;
+      }
+
+      .contact .col .actions{
+          width: 100%;
+      }
+      .actions{
+          padding-top: 15px;
+          text-align: center;
+      }
+      .form-group textarea {
+          height: 113px;
+      }
+      .form-group  button {
+          border: none;
+      }
+      .btn-contact-bg {
+          background: #03072F;
+          border-radius: 5px;
+          color: #ffffff;;
+          display: inline-block;
+          font-size: 15px;
+          font-weight: 600;
+          transition: all 0.3s ease 0s;
+      }
+      .btn-contact-bg:hover,
+      .btn-contact-bg:focus {
+          background: #f55160;
+          color: #fff;
+      }
+
+      .copyright{
+          background: #03072F;
+          padding-top: 100px;
+          padding-bottom: 130px;
+      }
+
+      .copyright__block{
+          display: flex;
+          align-items: center;
+          color: #ffffff;
+      }
+      .copyright .contact-info{
+          display:flex;
+          align-items:center;
+          margin-bottom:32px;
+      }
+      .copyright .contact-info .icon i{
+          width: 80px;
+          height: 80px;
+          font-size: 40px;
+          border-radius: 50%;
+          color: #03072F;
+          color: #ffffff;
+          display: inline-flex;
+          align-items: center;
+      }
+      .copyright .contact-info .content h6{
+          font-size:20px;
+          margin-bottom:6px;
+          color: #ffffff;
+      }
+      .copyright .contact-info .content span{
+          position: relative;
+          color: #383737;
+          font-size: 16px;
+          line-height: 1.7;
+          font-weight: 400;
+          color: #ffffff;
+      }
+      .copyright .contact-info .content span a{
+          color: #ffffff;
+          text-decoration: none;
+      }
+      .copyright .contact-info .content span a:hover{
+          color: #ffffff;
+          text-decoration: none;
+      }
+
+
+      .politics{
+          display: flex;
+          justify-content: center;
+      }
+      .politics a{
+          padding: 0 15px 0 15px;
+          font-size:22px;
+          color: #ffffff;
+      }
+      .politics a:hover{
+          font-size:22px;
+          color:#00ffb3;
+      }
+
+      .scrollUp {
+          display: flex;
+          justify-content: center;
+          background: #f4f9f9 none repeat scroll 0 0;
+          border-radius: 0px;
+          bottom: 15px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+          color: #16213E;
+          font-size: 28px;
+          height: 40px;
+          line-height: 35px;
+          position: fixed;
+          right: 15px;
+          text-align: center;
+          transition: all 0.3s ease 0s;
+          width: 40px;
+          z-index: 100000;
+          visibility: hidden;
+          opacity: 0;
+      }
+      .scrollUp.active{
+          visibility: visible;
+          opacity: 1;
+      }
+
+      .scrollUp i{
+          font-size: 20px;
+          margin: auto;
+      }
+
+
+      .button-1{
+          display: inline-block;
+          padding: 15px 25px;
+          border-radius: 25px;
+          text-decoration: none;
+          color: #FFF;
+          background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+          transition: .4s;
+          margin-top: 15px;
+      }
+
+      .button-2{
+          display: inline-block;
+          padding: 0.5em 1em;
+          text-decoration: none;
+          border-radius: 3px;
+          font-weight: bold;
+          color: #FFF;
+          background-image: linear-gradient(45deg, #709dff 0%, #b0c9ff 100%);
+          transition: .4s;
+      }
+
+      .button-3 {
+          position: relative;
+          display: inline-block;
+          font-weight: bold;
+          padding: 8px 10px 5px 10px;
+          text-decoration: none;
+          color: #FFA000;
+          background: #fff1da;
+          border-bottom: solid 4px #FFA000;
+          border-radius: 15px 15px 0 0;
+          transition: .4s;
+      }
+
+      .button-4{
+          display: inline-block;
+          padding: 0.5em 1em;
+          text-decoration: none;
+          color: #67c5ff;
+          border: dashed 1px #67c5ff;
+          border-radius: 3px;
+          transition: .4s;
+      }
+
+      .button-5{
+          display: inline-block;
+          padding: 0.5em 1em;
+          text-decoration: none;
+          background: #f7f7f7;
+          border-left: solid 6px #ff7c5c;
+          color: #ff7c5c;
+          font-weight: bold;
+          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+      }
+
+      .button-6{
+          display: inline-block;
+          padding: 15px 25px;
+          border-radius: 25px;
+          text-decoration: none;
+          background: #03072F;
+          color: #ffffff;
+          transition: .4s;
+          margin-top: 15px;
+      }
+
+      .button-7{
+          display: inline-block;
+          padding: 0.5em 1em;
+          text-decoration: none;
+          border-radius: 3px;
+          font-weight: bold;
+          background: #03072F;
+          color: #ffffff;
+          transition: .4s;
+      }
+
+      .button-8 {
+          position: relative;
+          display: inline-block;
+          font-weight: bold;
+          padding: 8px 10px 5px 10px;
+          text-decoration: none;
+          background: #03072F;
+          color: #ffffff;
+          border-bottom: solid 4px #FFA000;
+          border-radius: 15px 15px 0 0;
+          transition: .4s;
+      }
+
+      .button-9{
+          display: inline-block;
+          padding: 0.5em 1em;
+          text-decoration: none;
+          background: #03072F;
+          color: #ffffff;
+          border: dashed 1px #67c5ff;
+          border-radius: 3px;
+          transition: .4s;
+      }
+
+      .button-10{
+          display: inline-block;
+          padding: 0.5em 1em;
+          text-decoration: none;
+          background: #03072F;
+          color: #ffffff;
+          border-left: solid 6px #ff7c5c;
+          font-weight: bold;
+          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+      }
+
+      @media (max-width: 1200px) {
+          .navbar__links ul {
+              display: none;
+              background-color: #03072F;;
+              padding: 10px;
+          }
+
+          .navbar__burger {
+              display: block;
+          }
+
+          .navbar__links ul.show {
+              display: block;
+          }
+      }
+
+      @media (max-width: 493px){
+          .politics{
+              flex-direction: column;
+          }
+      }
+
+      @media (max-width: 767px){
+          .testimonial .col{
+              flex-direction: column;
+          }
+
+          .service .content{
+              flex-direction: column !important;
+          }
+      }
+
+    
+    </style>
+
+    
+  </head>
+  <body>
+
+    
+
+    <header>
+      <nav id="header-top" class="navbar">
+        <div class="container">
+          <div class="navbar-brand" href="./">
+            <img src="main.svg" alt="" />
+            <h4 class="site__title">Rosacitywiss</h4>
+          </div>
+          <div class="navbar__links">
+            <ul class="navbar-nav">
+              <li><a href="./">Home</a></li>
+              <li><a href="./#about">About us</a></li>
+              <li><a href="./#faqs">Frequently Asked Questions</a></li>
+              
+            </ul>
+          </div>
+          <div class="navbar__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div
+            class="row align-items-center justify-content-between 3 flex-row-reverse"
+          >
+            <div class="col-lg-6 col-md-6">
+              <div class="home-title">
+                <h1>Welcome to Rosacitywiss, your premier destination for creative and engaging floral workshops. Whether you're a beginner or a seasoned flower enthusiast, our expert-led classes offer a unique opportunity to learn, create, and enjoy the art of floral design. Join us to bring beauty and inspiration into your life through hands-on experience and expert guidance.</h1>
+                
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="home__img">
+                <img src="files/images/pics-854x4800.webp" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    
+
+<div class="container paddingBlock">
+    <div><div id="privacyPolicyContainer" class="privacy-policy-container">
+  <div id="privacyPolicySection" class="privacy-policy-section-box">
+    <h2 class="policy-heading">Privacy Statement</h2>
+    <p class="policy-effective-date">Effective Date: 07/04/2026</p>
+    <p class="policy-intro-paragraph">
+      This Privacy Policy outlines the data handling practices for Rosacitywiss. We are deeply committed to safeguarding your personal information and upholding your right to privacy. This document details the categories of data we gather, how we utilize and secure that information, and the rights you possess concerning the access, amendment, or removal of your personal data. Our operations strictly adhere to all relevant privacy legislation and regulations, including those applicable in the United States, such as the California Consumer Privacy Act (CCPA). We urge you to review this policy thoroughly to understand our approach to your personal information.
+    </p>
+
+    <h3 class="policy-section-container-heading">1. Data Collection and Usage</h3>
+    <p class="policy-text">
+      At Rosacitywiss, we collect data that you willingly provide while engaging with our services, primarily through our landing page. The personal data we may collect includes, but is not limited to, the following:
+    </p>
+    <ul class="policy-list">
+      <li class="policy-list-item">Contact details such as your full name, email address, and telephone number.</li>
+      <li class="policy-list-item">Financial and transactional information required for purchasing our services.</li>
+      <li class="policy-list-item">User account credentials and authentication information.</li>
+      <li class="policy-list-item">Information about your website usage, such as pages viewed, duration of visits, and other analytical metrics.</li>
+    </ul>
+    <p class="policy-text">
+      We leverage this information to deliver and enhance our services, process your transactions, respond to your inquiries, and customize your user experience. Furthermore, we may use your data to send you communications about updates or special offers that align with your interests. All data usage is performed in strict accordance with applicable privacy laws.
+    </p>
+
+    <h3 class="policy-section-box-heading">2. Legal Grounds for Data Processing and Adherence</h3>
+    <p class="policy-text">
+      Our data processing activities are conducted in full compliance with pertinent data protection regulations within the United States. Specifically, we observe the provisions of the California Consumer Privacy Act (CCPA) when applicable. The legal bases upon which we collect and utilize the personal information described in this policy include:
+    </p>
+    <ul class="policy-list">
+      <li class="policy-list-item"><strong>Your Explicit Consent:</strong> Where you have provided clear consent for us to use your personal information for specific purposes.</li>
+      <li class="policy-list-item"><strong>Contractual Necessity:</strong> When processing is essential to fulfill the terms of a contract or to deliver services for which you have engaged with us.</li>
+      <li class="policy-list-item"><strong>Compliance with Legal Obligations:</strong> When we must process your data to meet mandatory legal requirements.</li>
+      <li class="policy-list-item"><strong>Legitimate Business Interests:</strong> In certain situations, our legitimate interests in providing a high-quality service may necessitate data processing, provided such processing does not override your fundamental rights and freedoms.</li>
+    </ul>
+    <p class="policy-text">
+      We regularly review our privacy policies to ensure they remain current with the latest legal standards and incorporate any regulatory revisions issued by governmental authorities in the United States.
+    </p>
+
+    <h3 class="policy-section-box-heading">3. Your Rights Regarding Personal Information: Access, Correction, and Deletion</h3>
+    <p class="policy-text">
+      We prioritize transparency and recognize the importance of your personal data. You possess the right to access, update, rectify, or request the erasure of your personal information that we hold. Should you wish to review the data we have stored about you or make any modifications, please follow the procedures detailed below:
+    </p>
+    <ul class="policy-list">
+      <li class="policy-list-item"><strong>Access to Your Data:</strong> You may submit a request at any time to obtain a comprehensive summary of the personal data we maintain about you, along with information on how it is being used.</li>
+      <li class="policy-list-item"><strong>Data Correction:</strong> If you identify any inaccuracies or outdated information within your personal data, you have the right to request corrections. We are committed to maintaining accurate records and will promptly update your data upon receiving a verified request.</li>
+      <li class="policy-list-item"><strong>Data Deletion:</strong> In accordance with applicable laws, you can request the complete removal of your personal data from our systems. Once a deletion request is verified and approved, your information will be permanently erased, except where retention is mandated by law or necessary for record-keeping purposes as specified in this policy.</li>
+      <li class="policy-list-item"><strong>Opt-Out from Communications:</strong> If you prefer not to receive future promotional communications, you may opt-out either by adjusting your account settings on our website or by following the unsubscribe instructions included in our messages.</li>
+    </ul>
+    <p class="policy-text">
+      To safeguard your privacy and ensure the security of your requests, we may ask you to verify your identity before processing any requests for access, correction, or deletion. We endeavor to fulfill all such requests within 30 days, aligning with the standards set by relevant United States privacy legislation.
+    </p>
+
+    <h3 class="policy-section-wrap-heading">4. Data Security Protocols</h3>
+    <p class="policy-text">
+      The security of your personal information is of utmost importance to us. Rosacitywiss implements a variety of administrative, technical, and physical safeguards specifically designed to protect your data from unauthorized access, alteration, disclosure, or destruction. Our security practices include:
+    </p>
+    <ul class="policy-list">
+      <li class="policy-list-item">Application of encryption protocols for both data transmission and storage.</li>
+      <li class="policy-list-item">Regular security evaluations and continuous monitoring of our information systems.</li>
+      <li class="policy-list-item">Strict access controls, ensuring personal data is only accessible by authorized personnel.</li>
+      <li class="policy-list-item">Deployment of firewalls and advanced intrusion detection systems.</li>
+    </ul>
+    <p class="policy-text">
+      However, please be aware that no method of data transmission over the Internet or electronic storage can be guaranteed as 100% secure. While we take extensive measures to protect your information, we cannot assure its absolute security.
+    </p>
+
+    <h3 class="policy-section-block-heading">5. Data Retention and Archiving</h3>
+    <p class="policy-text">
+      We retain your personal information only for as long as necessary to provide our services, comply with our legal obligations, resolve potential disputes, and enforce our agreements. The specific duration for which we keep certain records may vary based on the nature of the information and its collection purpose. Generally, our retention periods are as follows:
+    </p>
+    <ul class="policy-list">
+      <li class="policy-list-item">Transactional records and account information are maintained for the period required to fulfill contractual duties and for a reasonable period thereafter.</li>
+      <li class="policy-list-item">Analytical data, collected through various technologies, is stored in an aggregated and anonymized format for ongoing analysis and service improvement.</li>
+      <li class="policy-list-item">Data mandated for retention under United States regulations is securely stored until the statutory retention period concludes.</li>
+    </ul>
+    <p class="policy-text">
+      Upon the expiration of the relevant retention period, personal data will be securely deleted or anonymized to ensure it can no longer identify you.
+    </p>
+
+    <h3 class="policy-section-wrap-heading">6. Information Sharing and Disclosure</h3>
+    <p class="policy-text">
+      Your personal information may be shared with trusted third-party service providers who support our business operations or help us fulfill your requests. These third parties are granted restricted access to your data, strictly for the purpose of performing specific tasks on our behalf, and are contractually bound to protect your information with the same diligence we apply.
+    </p>
+    <p class="policy-text">
+      We may also disclose data if legally compelled to do so, or if we genuinely believe that such disclosure is necessary to safeguard the rights, assets, or safety of our company, our users, or other parties. In such circumstances, only the absolute minimum personal information required will be disclosed.
+    </p>
+
+    <h3 class="policy-section-wrap-heading">7. Cross-Border Data Transfers</h3>
+    <p class="policy-text">
+      While we primarily process your personal data within our secure information systems located in the United States, there might be occasions where information is transferred to or maintained on systems situated in jurisdictions outside of the United States. In these situations, we ensure that robust safeguards, such as contractual protections and industry-standard security measures, are in place to protect your data in accordance with the requirements of applicable privacy laws.
+    </p>
+
+    <h3 class="policy-section-block-heading">8. Your Rights and Choices Regarding Your Data</h3>
+    <p class="policy-text">
+      We are steadfast in our commitment to honoring your privacy rights. Depending on your geographical location and the nature of your interaction with us, you may be entitled to the following rights concerning your personal data:
+    </p>
+    <ul class="policy-list">
+      <li class="policy-list-item"><strong>Right to Access:</strong> To request a comprehensive report of the personal information we hold about you.</li>
+      <li class="policy-list-item"><strong>Right to Rectification:</strong> To request updates or corrections to any inaccuracies found in your information.</li>
+      <li class="policy-list-item"><strong>Right to Erasure:</strong> To request the permanent deletion of your personal information from our records, subject to certain legal exceptions and retention obligations.</li>
+      <li class="policy-list-item"><strong>Right to Restrict Processing:</strong> To seek limitations on the processing of your personal data under specific conditions.</li>
+      <li class="policy-list-item"><strong>Right to Data Portability:</strong> To request that a copy of your information be provided in a structured, commonly used, and machine-readable format.</li>
+      <li class="policy-list-item"><strong>Right to Object/Opt-Out:</strong> To withdraw your consent for data processing, which includes opting out of receiving promotional communications from us.</li>
+    </ul>
+    <p class="policy-text">
+      To exercise these rights, please utilize the mechanisms provided on our website or contact our support team through the communication channels available within your user account area. Please note that we may require additional verification to confirm your identity before processing your request. Our aim is to respond to all verified requests within 30 days.
+    </p>
+
+    <h3 class="policy-section-box-heading">9. Policy Modifications and Revisions</h3>
+    <p class="policy-text">
+      We retain the prerogative to amend or update this Privacy Policy periodically to reflect changes in our operational practices or to comply with evolving legal requirements. Any significant alterations that materially impact your privacy rights will be communicated through our website or other appropriate channels. It is your responsibility to review this Privacy Policy regularly to remain informed of our practices. Unless otherwise specified, all changes will become effective immediately upon their publication.
+    </p>
+    <p class="policy-text">
+      Your continued engagement with our services subsequent to any modifications to this Privacy Policy will signify your acknowledgment of these changes and your agreement to abide by the updated terms.
+    </p>
+
+    <h3 class="policy-section-block-heading">10. Supplementary Disclosures</h3>
+    <p class="policy-text">
+      Within our digital operational framework, we may conduct surveys, contests, or promotional activities that necessitate the submission of personal data. In such scenarios, specific additional disclosures and terms will be provided, which will be incorporated by reference into this Privacy Policy. We encourage you to review these supplementary terms to fully understand how your personal data will be processed in these particular contexts.
+    </p>
+    <p class="policy-text">
+      We are also committed to protecting your privacy when you utilize third-party plug-ins and social media integrations. These external systems operate under their own distinct privacy policies and practices, which are independent of our own. We advise you to review those policies separately to understand their data handling procedures.
+    </p>
+
+    <h3 class="policy-section-container-heading">11. Concluding Remarks</h3>
+    <p class="policy-text">
+      At Rosacitywiss, the protection of your personal information is a responsibility we treat with utmost seriousness. Our systems and policies are meticulously designed to safeguard your data while simultaneously delivering high-quality services. By utilizing our website and services, you indicate your agreement to the practices detailed within this Privacy Policy. We value your trust and are dedicated to maintaining transparency regarding our data handling procedures.
+    </p>
+    <p class="policy-text">
+      Should you have any inquiries concerning our Privacy Policy or the practices outlined herein, please consult the FAQ section on our website. Your ongoing engagement with our services implies your comprehension and acceptance of these policies as they evolve over time.
+    </p>
+    <p class="policy-text">
+      Thank you for choosing Rosacitywiss. We are committed to ensuring that your online privacy experience remains secure, transparent, and aligned with the highest standards stipulated by United States law.
+    </p>
+  </div>
+</div></div>   
+</div>
+
+
+
+
+    <section class="copyright">
+      <div class="container">
+        
+        <div class="row align-items-center text-center">
+          <div class="col-lg-12">
+            <div class="politics">
+              <a href="terms.html" target="_blank">Terms & Conditions</a>
+              <a href="disclaimer.html" target="_blank">Disclaimer</a>
+              <a href="terms.html" target="_blank">Terms & Conditions</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a class="scrollUp" href="#">
+      &#8593;
+    </a>
+
+
+    
+
+</body>
+</html>
